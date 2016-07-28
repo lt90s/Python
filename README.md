@@ -9,8 +9,4 @@ print repr(x)
 ```
 
 
-```python
-setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
-val = struct.pack("4sl", socket.inet_aton(AllSPFRouters), socket.INADDR_ANY)
-ospf_socket.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP, val)
-```
+
